@@ -1,0 +1,8 @@
+{
+  "name": "Bharat Cibil — Credit Report Rectification & Consultancy India",
+  "description": "Independent Indian credit consultancy offering CIBIL report analysis, rectification assistance for inaccurate entries, commercial CMR improvement, and credit score guidance across India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -10,9 +10,10 @@ permissions:
   pages: write
   id-token: write
 
-jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      SITE_URL: https://bharatcibil.com
 
     steps:
       - uses: actions/checkout@v4

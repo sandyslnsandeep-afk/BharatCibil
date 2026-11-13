@@ -5,7 +5,7 @@ import { generateRobotsTxt, generateSitemapXml, getSitemapEntries } from '../src
 
 dotenv.config();
 
-const rawSiteUrl = process.env.SITE_URL || process.env.APP_URL || 'https://bharatcibil.in';
+const rawSiteUrl = process.env.SITE_URL || process.env.APP_URL || 'https://bharatcibil.com';
 const siteUrl = rawSiteUrl.startsWith('http') ? rawSiteUrl : `https://${rawSiteUrl}`;
 
 const publicDir = path.resolve(process.cwd(), 'public');
